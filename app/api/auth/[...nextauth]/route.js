@@ -21,6 +21,7 @@ export const authOptions = {
                 }
                 return true;
             }
+            return false;
         },
         async session({ session }) {
             return session;
